@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from tensorflow.keras.datasets import mnist
 12121331341221211121212214ed1111111
-# 加载预训练的 MN31IST 数3131据集和模型
+# 加载预训练的 MN31IST 数3131据集和模型11111
 def load_mnist_model():2s232322131311133113
     # 创建并训练一个简单的 MNIST 模型（如果没有模型的话）
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
