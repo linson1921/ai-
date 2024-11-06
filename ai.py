@@ -8,7 +8,7 @@ def load_mnist_model():
     # 创建并训练一个简单的 MNIST 模型（如果没有模型的话）
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
     x_train, x_test = x_train / 255.0, x_test / 255.0
-    
+    111
     model = tf.keras.models.Sequential([
         tf.keras.layers.Flatten(input_shape=(28, 28)),
         tf.keras.layers.Dense(128, activation='relu'),
